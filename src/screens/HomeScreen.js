@@ -6,7 +6,9 @@ const Home = () => {
   const [users, setUsers] = useState([]);
 
   const fetchCars = async () => {
-    let response = await axios.get('http://localhost:5000/api/cars/');
+    let response = await axios.get(
+      'https://car-dealer-shop-back-embeded.herokuapp.com/api/cars/'
+    );
 
     setUsers(response.data);
   };
