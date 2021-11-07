@@ -39,10 +39,13 @@ const LoginScreen = () => {
     e.preventDefault();
 
     axios
-      .post('http://localhost:5000/api/users/login', {
-        email: loginEmail,
-        password: loginPassword,
-      })
+      .post(
+        'https://car-dealer-shop-back-embeded.herokuapp.com/api/users/login',
+        {
+          email: loginEmail,
+          password: loginPassword,
+        }
+      )
       .then((response) => {
         const userId = response.data.userId;
 
@@ -76,12 +79,15 @@ const LoginScreen = () => {
     }
 
     axios
-      .post('http://localhost:5000/api/users/signup', {
-        name: signupName,
-        surname: signupSurname,
-        email: signupEmail,
-        password: signupPassword,
-      })
+      .post(
+        'https://car-dealer-shop-back-embeded.herokuapp.com/api/users/signup',
+        {
+          name: signupName,
+          surname: signupSurname,
+          email: signupEmail,
+          password: signupPassword,
+        }
+      )
       .then((response) => {
         if (response.data.registrationStatus === 'failed') {
           setSignupErrorMessage(response.data.message);

@@ -30,4 +30,6 @@ year:
 price: ]
 { timestamps: true }
 
+- icons react missing
+- more data info analysis from primitive database data possible
 - lookink for freedom to make this applicatiion on web3JS

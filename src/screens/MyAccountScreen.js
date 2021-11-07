@@ -6,7 +6,7 @@ import { FaUserAlt } from 'react-icons/fa';
 import { UserContext } from '../App';
 import Form from '../components/Form/Form';
 
-const endpoint = 'http://localhost:5000';
+const endpoint = 'https://car-dealer-shop-back-embeded.herokuapp.com';
 
 const MyAccount = () => {
   // Hooks
