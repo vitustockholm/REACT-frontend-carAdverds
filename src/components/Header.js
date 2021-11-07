@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header>
       <div className='container'>
-        <div>Car Adverts</div>
+        <div className='logo'>Adverts</div>
         <nav>
           <ul>
             <li>

@@ -8,6 +8,8 @@ import ProtectedRoute from './ProtectedRoute';
 
 //Components
 import Header from './components/Header';
+import Footer from './components/Footer';
+import { GlobalStyle } from './GlobalStyles';
 
 // CONTEXT
 export const UserContext = React.createContext();
@@ -41,6 +43,7 @@ function App() {
 
   return (
     <>
+      <GlobalStyle />
       <UserContext.Provider value={{ state, dispatch }}>
         <Router>
           <Header />
@@ -49,6 +52,7 @@ function App() {
             <Route path='/login' component={LoginScreen} />
             <Route path='/my-account' component={ProtectedRoute} />
           </Switch>
+          <Footer />
         </Router>
       </UserContext.Provider>
     </>

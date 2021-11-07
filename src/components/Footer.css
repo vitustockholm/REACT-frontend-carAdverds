@@ -1,52 +1,67 @@
 /* MOBILE FIRST */
 /* Mobile */
 /* -- header */
-header {
+footer {
   background-color: var(--primary-color);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-header .container {
+footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-header .container div {
+footer .container div {
   color: white;
   font-size: 1.3em;
+
   font-weight: bold;
   text-transform: uppercase;
 }
 
-header .container nav ul {
+footer .container nav ul {
   display: flex;
   list-style: none;
 }
 
-header .container nav ul li {
+footer .container nav ul li {
   padding: 15px;
 }
 
-header .container nav ul li a {
+footer .container nav ul li a {
   color: white;
   text-decoration: none;
 }
 
-header .container nav ul li:hover {
+footer .container nav ul li:hover {
   background: white;
 }
 
-header .container nav ul li:hover a {
-  color: var(--primary-color);
+footer .container nav ul li:hover a {
+  color: rgb(132, 132, 148);
+}
+
+.listas {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   /* -- main */
-  /* index.hmtl */
-  header .container {
+  footer .container {
     /* width: calc(100% / 4 - 15px); */
     flex-direction: row;
+  }
+  .listas {
+    flex-direction: row;
+  }
+  .listas li {
+    margin-left: 80px;
   }
 }
