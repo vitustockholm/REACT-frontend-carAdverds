@@ -37,11 +37,11 @@ car_id: mongoose.Types.ObjectId,
 
 make:
 
-model:,
+model:
 
 year:
 
-price: ]
+price: ],
 
 { timestamps: true } }
 
