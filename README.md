@@ -24,14 +24,23 @@ userAndCarsSchema
 {
 
 name:
+
 surname:
+
 email:
+
 password:
+
 cars: [
+
 car_id: mongoose.Types.ObjectId,
+
 make:
+
 model:,
+
 year:
+
 price: ]
 
 { timestamps: true } }
