@@ -2,10 +2,10 @@
 
 _!remade from vanilla javascript:)_
 
--git clone <this.repository.git>
---npm install
-_!change url routing to deployd backend address_
----npm start
+*git clone <this.repository.git>
+*npm install
+!change url routing to deployd backend address_
+*npm start
 
 [ cra - application + react-icons ]
 [ styled-components used in this project]
