@@ -1,3 +1,5 @@
+deployed project : https://car-dealer-webshop-app-react.netlify.app/
+
 # start
 
 _!remade from vanilla javascript:)_
@@ -11,13 +13,16 @@ _!remade from vanilla javascript:)_
 *npm start
 
 [ cra - application + react-icons ]
+
 [ styled-components used in this project]
+
 [ mongoose nosql database connection for data store]
 
 ## MERN stack web application on MongoDB NOSQL database
 
 1. Frontend - Create React App
-2. Backend - NodeJS + MongoDB
+2. 
+3. Backend - NodeJS + MongoDB
 
 userAndCarsSchema
 
