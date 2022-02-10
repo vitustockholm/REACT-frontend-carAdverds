@@ -3,8 +3,11 @@
 _!remade from vanilla javascript:)_
 
 *git clone <this.repository.git>
+
 *npm install
+
 !change url routing to deployd backend address_
+
 *npm start
 
 [ cra - application + react-icons ]
