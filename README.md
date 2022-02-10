@@ -20,7 +20,9 @@ _!remade from vanilla javascript:)_
 2. Backend - NodeJS + MongoDB
 
 userAndCarsSchema
+
 {
+
 name:
 surname:
 email:
@@ -31,7 +33,8 @@ make:
 model:,
 year:
 price: ]
-{ timestamps: true }
+
+{ timestamps: true } }
 
 - icons react missing
 - more data info analysis from primitive database data possible
